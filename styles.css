@@ -33,6 +33,7 @@ hr{
 a{
     color: #89A8B2;
     font-family: monospace;
+    font-size: large;
 }
 ol{
     color: #89A8B2;
@@ -169,4 +170,5 @@ ul{
         width: 100%;
         float: none;
     }
+
 }
