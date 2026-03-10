@@ -1,0 +1,172 @@
+body{
+    background-color: #F1F0E8;
+}
+h1{
+    color: #B3C8CF;
+    font-family: monospace;
+    font-size: xx-large;
+}
+h2{
+    color: #B3C8CF;
+    font-family: monospace;
+    font-size: x-large;
+}
+h3{
+    color: #B3C8CF;
+    font-family: monospace;
+    font-size: x-large;
+}
+h4{
+    color: #B3C8CF;
+    font-family: monospace;
+    font-size: large;
+}
+p{
+    color: #89A8B2;
+    font-family: monospace;
+    font-size: large;
+}
+hr{
+    color: #89A8B2;
+    width: 90%;
+}
+a{
+    color: #89A8B2;
+    font-family: monospace;
+}
+ol{
+    color: #89A8B2;
+    font-family: monospace;
+    font-size: large;
+}
+ul{
+    color: #89A8B2;
+    font-family: monospace;
+    font-size: large;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nom{
+    text-align: center;
+    margin: 20px 0;
+}
+.izquierda{
+    background-color: #E5E1DA;
+    width: 35%;
+    float: left;
+}
+.derecha{
+    width: 65%;
+    float: right;
+}
+.infoData{
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+}
+.datosFila{
+    display: flex;         
+    gap: 10px;
+}
+.LaburoInfo1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.LaburoInfo2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.laburoHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Educacion{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.eduFila{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.celdacol{
+    background-color: #E5E1DA;
+}
+@media (max-width:500px) {
+    body{
+        background-color: #F1F0E8;
+    }
+    h1{
+        color: #B3C8CF;
+        font-family: monospace;
+        font-size: xx-large;
+
+    }
+    h2{
+        color: #B3C8CF;
+        font-family: monospace;
+        font-size: large;
+    }
+    h3{
+        color: #B3C8CF;
+        font-family: monospace;
+        font-size: large;
+    }
+    h4{
+        color: #B3C8CF;
+        font-family: monospace;
+        font-size: medium;
+    }
+    h5{
+        color: #B3C8CF;
+        font-family: monospace;
+        font-size: medium;
+    }
+    p{
+        color: #89A8B2;
+        font-family: monospace;
+        font-size: medium;
+    }
+    hr{
+        color: #89A8B2;
+        width: 90%;
+    }
+    a{
+        color: #89A8B2;
+        font-family: monospace;
+    }
+    td{
+        background-color: #F1F0E8 ;
+    }
+    ol{
+        color: #89A8B2;
+        font-family: monospace;
+        font-size: medium;
+    }
+    ul{
+        color: #89A8B2;
+        font-family: monospace;
+        font-size: medium;
+    }
+    table{
+        border: 0px;
+    }
+    .celdacol{
+        background-color: #E5E1DA
+    }
+    .foto,.icons,.Idiomas,.Certificados,.desc1{
+        display: none;
+    }
+    .izquierda,.derecha{
+        background-color: #F1F0E8;
+        width: 100%;
+        float: none;
+    }
+}
